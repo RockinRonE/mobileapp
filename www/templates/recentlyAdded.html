@@ -1,0 +1,12 @@
+<ion-view title="Recently Added" id="page1" class=" ">
+    <ion-content padding="true" class="has-header">
+      <div ng-repeat="recent in recentlyAdded">
+        <ul>
+          <li>Name: {{recent.name}} </li>
+          <li>Location Met: {{recent.locationMet}}</li>
+          <hr>
+        </ul>
+      </div>
+
+    </ion-content>
+</ion-view>
